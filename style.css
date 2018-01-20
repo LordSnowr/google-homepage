@@ -1,0 +1,138 @@
+*{
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding: 0;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin-top: 20px;
+  margin-right:20px;
+  justify-content: flex-end;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+img {
+  height:92px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type:none;
+  padding: 0;
+  overflow: hidden;
+  justify-content: flex-end;
+  display:block;
+  list-style-type: none;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  margin-top: 10px;
+}
+
+li {
+  display: inline;
+  display: list-item;
+  display: inline-block;
+  margin-left:20px;
+  text-align: -webkit-match-parent;
+
+}
+header li {
+  vertical-align: middle;
+}
+footer {
+position:absolute;
+bottom:30px;
+background-color:#F2F2F2;
+width:100%;
+justify-content: flex-end;
+display: block;
+border-top: 1px solid #D3D3D3;
+height: 40px;
+align-items:center;
+}
+
+footer li{
+  vertical-align: middle;
+}
+
+
+.grid-dots{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 16px;
+  width: 16px;
+}
+
+.dot {
+  background-color: gray;
+  margin-right: 1px;
+  height:4px;
+  width: 4px;
+  cursor: pointer;
+}
+.right{
+  padding-left: 1100px;
+}
+.left{
+  padding-right:1200px;
+}
+
+.search {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  height: 30px;
+  background: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D) transparent;
+  z-index: 6;
+  outline: none;
+  margin: : 0px;
+  width:500px;
+  text-align: center;
+  border: .5px solid #D3D3D3;
+  box-shadow: 0 2px 2px -2px lightgrey;
+}
+.sign {
+  background-color:#1F75F4;
+  color:white;
+  height: 30px;
+  width:63px;
+  font-family: arial;
+  font-size:13px;
+  font-weight: bold;
+  text-align:center;
+  cursor: :pointer;
+
+}
+.btns {
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 25px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center
+
+}
+.push{
+  margin-left:999px;
+}
